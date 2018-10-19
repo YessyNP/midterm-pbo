@@ -22,8 +22,8 @@ public class Item {
         this.amount = amount;
     }
 
-    public String getNama() {
-        return nama;
+    public String getNama() { 
+        return nama; // berfungsi untuk mengembalikan nilai pada var nama
     }
 
     public void setNama(String nama) {
@@ -34,7 +34,7 @@ public class Item {
         return price;
     }
 
-    public void setPrice(float price) {
+    public void setPrice(float price) { 
         this.price = price;
     }
 
@@ -46,7 +46,7 @@ public class Item {
         this.amount = amount;
     }
     
-   public float getTotalPrice(){
+   public float getTotalPrice(){ // menghitung jumlah dari harga
         return price*amount;
     }
     

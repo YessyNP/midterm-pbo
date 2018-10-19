@@ -13,24 +13,24 @@ public class DiscountItem extends Item {
     private float discount;
     
     public DiscountItem(String nama, float price, int amount, float discount){
-    super (nama, price, amount);
-    this.discount= discount;
+    super (nama, price, amount); // untuk mengisi konstruktor yang ada di class parent
+    this.discount= discount; // untuk mengisi data ke variable discount
     }
 
     public float getDiscount() {
-        return discount;
+        return discount; // untuk mengembalikan nilai dari variabel diskon
     }
 
     public void setDiscount(float discount) {
-        this.discount = discount;
+        this.discount = discount; // untuk mengeset nilai atau memasukkan nilai ke variabel diskon
     }
 
-    public String getNama() {
-        return nama;
+    public String getNama() { 
+        return nama; // Berfungsi mengembalikan nilai dari var nama
     }
 
     public void setNama(String nama) {
-        this.nama = nama;
+        this.nama = nama;   // berfungsi untuk menambahkan nilai pada var nama
     }
 
     public float getPrice() {
